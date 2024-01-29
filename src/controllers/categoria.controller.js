@@ -49,6 +49,6 @@ export const deleteCategoria = async (req, res) => {
         }
         res.json({message: 'categoria eliminado correctamente'});
     } catch (error) {
-        return res.status(500).json({ message: "Se produjo un error al eliminar la categoria." });
+        return res.status(500).json({ message: "Se produjo un error al eliminar la categoria", estado: 200 });
     }
 };

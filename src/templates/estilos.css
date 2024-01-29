@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #373b3b;
+    color: #ffffff;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #373b3b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

@@ -114,6 +114,6 @@ export const deleteProducto = async (req, res) => {
         res.json({ message: 'Producto eliminado correctamente' });
     } catch (error) {
         console.error(error);
-        return res.status(500).json({ message: "Se produjo un error al eliminar el producto" });
+        return res.status(500).json({ message: "Se produjo un error al eliminar el producto", estado: 200});
     }
 };
